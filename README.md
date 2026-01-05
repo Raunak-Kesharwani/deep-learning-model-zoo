@@ -190,27 +190,7 @@ This comparison is **frequently asked in interviews**.
 
 ## 📂 Suggested Repository Structure
 
-deep-learning-model-zoo/
-│
-├── cnn/
-│ ├── cnn_from_scratch/
-│ ├── lenet5/
-│ ├── deep_cnn_vgg_style/
-│ ├── cnn_batchnorm_dropout/
-│ └── cnn_feature_extractor/
-│
-├── rnn/
-│ ├── vanilla_rnn/
-│ ├── lstm/
-│ ├── gru_vs_lstm/
-│ ├── seq2seq_no_attention/
-│ └── seq2seq_with_attention/
-│
-├── utils/
-├── experiments/
-└── README.md
-
-
+![Deep Learning Model Zoo Structure](assets/repo_structure.png) 
 
 
 ---
