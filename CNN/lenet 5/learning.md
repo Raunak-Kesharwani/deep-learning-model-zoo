@@ -6,6 +6,8 @@ Never call Optimizer before model otherwise it will not update and got stucked o
 
 Don't forgot shuffle = True in Dataloader , it may increase increase in model accuracy  
 
+we can not pass value directly in nn.class because nn contains whatever they are class / constructor  
+
 if using tanh activation than apply normalization  
 
 totensor() not normalizes it standardises  
