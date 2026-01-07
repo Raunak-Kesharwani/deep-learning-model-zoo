@@ -62,3 +62,5 @@ changing optimizer from SGD to ADAM :
     # Training is unstablized
     Accuracy: 99.0%
     Avg loss: 0.033818
+
+# Don't train anything i trained and saved the model just use them and inference 
