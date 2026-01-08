@@ -46,4 +46,11 @@ got to see imrovement
 with adam got :
     best validation accuracy : 85.7%
 
+after applying on the fly augumenttion got to see imporve by 1% and overfitting is completely reduced 
+    Accuracy: 86.0%
+    Avg loss: 64.976720
+
+after incresing epoches to 80 :
+    Accuracy: 91.5%
+    Avg loss: 51.88400
  
