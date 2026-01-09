@@ -1,0 +1,1 @@
+num_workers parameter in DataLoader specifies the number of parallel CPU subprocesses used to preload data, preventing the GPU from waiting on data fetching and preprocessing.  
