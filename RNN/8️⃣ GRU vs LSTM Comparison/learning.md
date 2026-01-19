@@ -66,3 +66,15 @@ Perplexity score :
 LSTM = 205
 GRU = 195 
 underfit because changed the sequence length from 35 to 60 and decreased layers by 1 
+
+average time taken for each epoche for both GRU and LSTM is ~16 min 
+LSTM is stopped at 13th epoche because of early stopping criteria has been hit 
+GRU taken complete 20 epoche 
+
+* Compared LSTM and GRU architectures for word-level language modeling on WikiText-2, observing that GRU achieved lower perplexity under identical training conditions due to faster convergence and parameter efficiency.
+
+LSTM at 13 epochs perplexity score is 196.13
+GRU at 13th epochs perplexity score is 181.73 
+and converges to 20th epochs with perplexity score of 179 
+
+GRU outperforms because data is limited and LSTM carries more gates so it takes more data to converge 
